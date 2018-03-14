@@ -1,0 +1,136 @@
+* {
+    margin:0;
+    padding:0;
+    color:green;
+}
+
+body{
+    background:black;
+    color: green;
+    font-family: 'Share Tech Mono', monospace;
+    background-image: url('https://image.ibb.co/nvr20b/me.jpg');
+    background-repeat: no-repeat;
+    background-position: 122% 10%;
+    background-size: 50%;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    padding-left:5px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size:1.7em;
+    width:120%;
+}
+
+.pic {
+    
+   float:right;
+}
+
+ul {
+    width: 65%;
+    margin-top:5px;
+    font-size:.6em;
+    padding: 0 2.5%;
+}
+  
+li {
+    display: inline-block;
+    margin:2px;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 0 2px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+section {
+    height:2px;
+    background:green;
+    margin-left:236px;
+    margin-top:-34px
+}
+
+.main {
+    text-indent: 20px;
+    width:60%;
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+span {
+    display: inline-block;
+    margin-left:-20px;
+    letter-spacing:2px;
+    font-size:1.2em;
+    margin-bottom:5px;
+    text-decoration:underline;
+}
+
+.b {
+    font-size:1em;
+}
+
+img {
+    margin-bottom:-15px;
+    margin-top:10px;
+}
+
+p {
+    width: 135%;
+}
+
+.contact p {
+    width: 150%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+div .main .contact {
+    margin-left:0;
+    padding-left: 0;
+}
+
+footer {
+    margin-top:20px;
+    font-size:.7em;
+    margin-right:2%;
+    float:right;
+}
+
+@media only screen and (min-width: 476px) {
+    
+    body {
+        background-position: 100% 10%;
+    }
+    
+    h1 {
+        width: 80%;
+    }
+    
+    section {
+        margin-top: -5px;
+    }
+
+    ul {
+        display: inline-block;
+        position: absolute;
+        padding: 0 3%;
+    }
+    
+    li {
+        margin: 0 2%;
+    }
+    
+    p {
+        width: 100%;
+    }
+    
+    p .contact {
+        width:100%;
+    }
+    
+}
